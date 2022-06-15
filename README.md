@@ -96,3 +96,7 @@ To install our shell on your Linux machine, clone this repository into a fresh d
     user$ echo "ls" | ./hsh
     a.out file0 file1 test.txt
     user$ 
+
+## Authors
+- Ayomide Hassan | [@hassanayo](https://github.com/hassanayo)
+- Oluwatomiwa Ekwunife | [@elisheba-beep](https://github/elisheba-beep)
