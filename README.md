@@ -7,6 +7,13 @@ This project is modelled after the early Unix shells such as Thompson shell.
 When in interactive mode, the program gets a command from the user through the terminal, checks if it's a valid command and executes if it is. The user can also pipe the output from other commands into the shell which makes it work in non-interactive mode.
 For more information about the shell, refer to ```man_1_simple-shell```
 
+## Requirements
+- All files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+- A README.md file at the root of the folder of the project
+- The code uses Betty coding style
+- An AUTHORS file at the root of the repository
+- Header files are include guarded
+
 ## Installation
 To install our shell on your Linux machine, clone this repository into a fresh directory and compile it with the following command:
 
