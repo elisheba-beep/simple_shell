@@ -80,3 +80,19 @@ To install our shell on your Linux machine, clone this repository into a fresh d
 ||_itoa|*convert integer to string number*
 ||count_digit|*count digits in number string*
 
+
+## Testing
+#### Interactive Mode Test
+
+    user$ ./hsh
+    $ ls
+    a.out file0 file1 test.txt
+    $ 
+    $ exit
+    user$ 
+
+#### Non-Interactive Mode
+
+    user$ echo "ls" | ./hsh
+    a.out file0 file1 test.txt
+    user$ 
