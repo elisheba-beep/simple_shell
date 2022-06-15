@@ -23,5 +23,5 @@ char *_revstr(char *s)
 		rev[j] = s[i];
 		s[i] = buff;
 	}
-	return (s);
+	return (s); /* return function*/
 }
